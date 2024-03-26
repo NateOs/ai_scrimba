@@ -21,7 +21,7 @@ const textTranslationResponse = await hf.translation({
     src_lang: "en_XX",
     tgt_lang: "ur_PK",
   },
-});
+}); 
 
 const translation = textTranslationResponse.translation_text;
 console.log("\ntranslation:\n");
